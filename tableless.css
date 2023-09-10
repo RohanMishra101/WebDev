@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box1{
+    display: inline-block;
+    border: 20px solid red;
+    margin: 10px;
+    /* padding: 100px; */
+    height: 100px;
+    width: 100px;
+    color: white;
+}
+
+.box{
+    background-color: green;
+}
+.box0{
+    background-color: blue;
+}

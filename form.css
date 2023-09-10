@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.formClass{
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    /* outline: 1px dashed red; */
+    gap: 10px;
+    margin: 0 auto;
+    padding: 50px;
+    /* flex-wrap: wrap; */
+    background-color: rgba(246, 246, 245, 0.5);
+    border-radius: 10px;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.2);
+}
+.formClass label{
+    font-size: 18px;
+    font-weight: 500;
+}
+.formClass input{
+    height: 35px;
+}
+.formClass .gender{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.formClass .gender .genderOption{
+    font-weight: 600;
+}
+.country option{
+    padding: 90px;
+}
+
+.submitBtn{
+    padding: 14px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(4, 181, 4);
+    transition: background-color 2s ease-in;
+}
+.submitBtn:hover{
+    background-color: red;
+}
+
+input[type="reset"]{
+    height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: red;
+}
+

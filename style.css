@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    background-color: aqua;
+} */
+.h1-div{
+    margin-top: 400px;
+}
+
+/* body{
+    animation: myBackround 1s infinite;
+     color: white;
+} */
+
+
+.hello_class{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+
+    /* margin-top: 100px; */
+    color: white;
+    opacity: 100%;
+    animation: myAnimation 3s infinite;
+    /* transition: opacity 1s ease-in-out; */
+}
+
+
+
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+ =-=-=-=-=-Animation=-=-=-=-=
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+
+@keyframes myAnimation{
+    0%{
+        opacity: 10%;
+        /* color:green; */
+    }
+    25%{
+        opacity: 50%;
+        margin-left: 400px;
+
+        /* color:blue; */
+    }
+    50%{
+        opacity: 100%;
+        margin-bottom: 20px;
+        /* color: purple;   */
+    }
+    75%{
+        opacity: 50%;
+        margin-right: 400px;
+        /* color: orangered; */
+    }
+    100%{
+        opacity: 10%;
+        /* color: red; */
+    }
+}
+
+/* background */
+@keyframes myBackround{
+    0%{
+        
+        background-color:chocolate;
+    }
+    25%{
+        
+        background-color: cadetblue;
+    }
+    50%{        
+        
+        background-color: rgb(212, 209, 36);
+    }
+    75%{
+        
+        background-color: cornflowerblue;
+    }
+    100%{
+        
+        background-color: aqua;
+    }
+}
+
+
+
+/* Animatin end */
+
+body{ 
+    /* background-color: black;  */
+    
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: black;  */
+} 
+      
+.division_tag{ 
+    max-width: 800px; 
+    border : 5px solid white; 
+    padding : 50px ;
+    text-align:justify; 
+    margin: 40px; 
+    font-size: 20px; 
+    font-weight: 600; 
+    color: white;
+    /* letter-spacing: 100px; */
+} 
+.div2{ 
+    float: right;
+} 
+.div3{ 
+    clear: right; 
+}
+.ancher a{
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+.ancher a:active{
+    color: red;
+}
+.ancher a:hover{
+    color: yellow;
+}
+/* .ancher a:visited{
+    color: green;
+} */
+.image{
+    border: 2px solid black;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.image img{
+    max-width: 500px;
+    height: 500px;
+    /* margin: 0 auto; */
+    border: 2px solid red;
+    
+}
+.table{
+    /* padding: 10px; */
+    border: 1px solid red;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+}
+.table table{
+    /* align-self: center; */
+    max-width: 100%;
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    /* border-spacing: 0; */
+}
+.table table tr th{
+    border: 1px solid black;
+    padding: 2px;
+    /* background-color: ; */
+}
+/* .table table tr td{
+    width: 100px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 4px;
+    font-size: 18px;
+    font-weight: 500;
+    gap: none;
+} */
+
+.Marks{
+    background-color: red;
+    color: white;
+}
+
+

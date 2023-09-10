@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css"/>
+  </head>
+  <body>
+    <form action="index.html">
+      <div class="formClass">
+        <label for="">Name : </label>
+        <input type="text" required/>
+
+        <label for="">Password : </label>
+        <input type="password" value="" required />
+
+        <label for="">Phone No. : </label>
+        <input type="number" name="" />
+
+        <div class="gender">
+          <label for="">Gender : </label>
+          <br />
+          <label for="" class="genderOption">Male : </label>
+          <input type="radio" name="gender" />
+
+          <label for="" class="genderOption">Female : </label>
+          <input type="radio" name="gender" />
+        </div>
+
+        <label for="">Country : </label>
+        <select
+          class="country"
+          name="Country"
+          id=""
+          required
+          class="contrySelect"
+        >
+          <option value="" hidden disabled selected></option>
+          <option value="Nepal">Nepal</option>
+          <option value="India">India</option>
+          <option value="China">China</option>
+        </select>
+        <label for="">Gmail</label>
+        <input type="email" required />
+        <button class="submitBtn">Submit</button>
+
+        <input type="reset" class="reset" />
+      
+        <!-- <input type="file"> -->
+      </div>
+    </form>
+
+    <a href="index.html">
+      <button>
+        Home
+      </button>
+    </a>
+  </body>
+</html>
