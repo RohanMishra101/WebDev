@@ -52,19 +52,61 @@ let num2 = document.getElementById("numTwo");
 let num3 = document.getElementById("numThree");
 
 let displayResult = document.getElementById("large");
-var a,b,c;
+// var a,b,c;
 
 function largeNumber(){
+    var a
     a = parseInt(num1.value);
     b = parseInt(num2.value);
     c = parseInt(num3.value);
 
     if(a > b && a > c){
-        displayResult.innerHTML = "The greatest among three num "+ a+" "+b+" "+c+" "+ " is : "+ a;
+        displayResult.innerHTML = "The greatest among three num "+ a +" "+b+" "+c+" "+ " is : "+ a;
     }else if(b > a && b > c){
-        displayResult.innerHTML = "The greatest among three num "+ a+" "+b+" "+c+" "+ " is : "+ b;
+        displayResult.innerHTML = "The greatest among three num "+ a +" "+b+" "+c+" "+ " is : "+ b;
     }else{
-        displayResult.innerHTML = "The greatest among three num "+ a+" "+b+" "+c+" "+ " is : "+ c;
+        displayResult.innerHTML = "The greatest among three num "+ a+ " "+b+" "+c+" "+ " is : "+ c;
     }
 
 }
+
+
+let getNumber = document.getElementById("getNum");
+let displayDayResult = document.getElementById("switch");
+
+function switchFun(){
+    let num = parseInt(getNumber.value);
+    
+    switch (num) {
+        case 1:
+            displayDayResult.innerHTML = "Sunday";
+            break;
+        case 2:
+            displayDayResult.innerHTML = "Monday";
+            break;
+        case 3:
+            displayDayResult.innerHTML = "Tuesday";
+            break;
+            // displayDayResult.innerHTML = "Sunday"
+        case 4:
+            displayDayResult.innerHTML = "Wednesday";
+            break;
+        case 5:
+            displayDayResult.innerHTML = "Thursday";
+            break;
+        case 6:
+            displayDayResult.innerHTML = "Friday";
+            break;
+        case 7:
+            displayDayResult.innerHTML = "Saturday";
+            break;
+        default:
+            displayDayResult.innerHTML = "Please enter number from 1 to 7";
+            break;
+    }
+}
+
+
+
+
+
