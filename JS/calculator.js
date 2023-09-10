@@ -1,3 +1,6 @@
+
+let abs = "textBox";
+
 let textBox1 = document.getElementById('textBox');
 let textBox2 = document.getElementById('textBox1');
 let result = document.getElementById('label')
@@ -40,4 +43,28 @@ function mul(){
     result.style.display = "block";
 }
 
+// var 
+// Es6 let const
 
+
+let num1 = document.getElementById("numOne");
+let num2 = document.getElementById("numTwo");
+let num3 = document.getElementById("numThree");
+
+let displayResult = document.getElementById("large");
+var a,b,c;
+
+function largeNumber(){
+    a = parseInt(num1.value);
+    b = parseInt(num2.value);
+    c = parseInt(num3.value);
+
+    if(a > b && a > c){
+        displayResult.innerHTML = "The greatest among three num "+ a+" "+b+" "+c+" "+ " is : "+ a;
+    }else if(b > a && b > c){
+        displayResult.innerHTML = "The greatest among three num "+ a+" "+b+" "+c+" "+ " is : "+ b;
+    }else{
+        displayResult.innerHTML = "The greatest among three num "+ a+" "+b+" "+c+" "+ " is : "+ c;
+    }
+
+}
