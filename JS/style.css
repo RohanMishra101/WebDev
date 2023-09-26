@@ -7,3 +7,16 @@
 #label{
     display: none;
 }
+
+.calc{
+    display: none;
+}
+
+.largeNum{
+    display: none;
+}
+
+
+.btns{
+    margin-top: 100px;
+}
